@@ -1,0 +1,46 @@
+#padre {
+
+    height: 100vh;
+    width: 100vw;
+
+    background-color: darkkhaki;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja {
+    height: 4em;
+    width: 4em;
+    background-color: brown;
+    margin: 1em;
+}
+
+.cajaTransicion {
+    background-color: coral;
+    transition: 1s;
+}
+
+.cajaTransicion2 {
+    background-color: rgb(153, 242, 38);
+    transition: 1s;
+}
+
+.cajaTransicion:hover {
+    transition: 1s;
+    border-radius: 50%;
+}
+
+.cajaTransicion2:hover {
+    transition: 1es;
+    border-radius: 50%;
+}
+
+.cajaColor {
+    background-color: cornflowerblue;
+}
+
+.cajaColor2 {
+    background-color: darksalmon;
+}
